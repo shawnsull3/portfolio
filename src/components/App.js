@@ -9,7 +9,7 @@ function App() {
     <Header />
     <div classname='main'>
       <Switch>
-        {/* <Route exact path='/' render={() => <Redirect to='/new/1' />} /> */}
+        <Route exact path='/'/>
         <Route exact path='/portfolio' component={Portfolio} />
       </Switch>
     </div>
