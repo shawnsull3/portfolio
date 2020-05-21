@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,24 +21,21 @@ const Header = () => {
         <div className={classes.root}>
         <AppBar position="static">
             <Toolbar>
-                <Typography className={classes.title} color="inherit">
-                Specialization is for insects
+                <Typography className={classes.title} color="secondary">
+                  Specialization is for insects
                 </Typography>
-                <button>
-                    <Link to="/">
-                    Home
-                    </Link>
-                </button>
-                <button>
-                    <Link to="/portfolio">
-                    Portfolio
-                    </Link>
-                </button>
-                <button>
-                    <Link to="/">
-                    top
-                    </Link>
-                </button>
+                <Button component={Link} to={"/"} color="secondary">
+                  Home
+                </Button>
+                <Button component={Link} to={"/about"} color="secondary">
+                  About
+                </Button>
+                <Button component={Link} to={"/portfolio"} color="secondary">
+                  Portfolio
+                </Button>
+                <Button color="secondary">
+                  <EmailOutlinedIcon />
+                </Button>
             </Toolbar>
         </AppBar>
         </div>
