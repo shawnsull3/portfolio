@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
-import Portfolio from './Portfolio'
+import Portfolio from './Portfolio';
+import About from './About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path='/'/>
         <Route exact path='/portfolio' component={Portfolio} />
+        <Route exact path='/about' component={About} />
       </Switch>
     </div>
   </div>
