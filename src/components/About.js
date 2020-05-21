@@ -12,8 +12,8 @@ const useStyles = makeStyles((theme) => ({
       color: theme.palette.text.secondary,
     },
     stateImg: {
-        maxWidth: 400,
-        maxHeight: 300,
+        maxWidth: '40vw',
+        maxHeight: '35vw',
         width: 'auto',
         height: 'auto',
         padding: theme.spacing(1),
@@ -40,7 +40,7 @@ const About = () => {
                 <img className={classes.stateImg} src="https://gisgeography.com/wp-content/uploads/2020/03/Iowa-Outline-Map.jpg" alt="Iowa" />
               </Grid>
               <Grid item xs={6}>
-                <Paper className={classes.paper}>A bunch of text in here</Paper>
+                <Paper className={classes.paper}>A bunch of text in here A bunch of text in here A bunch of text in here A bunch of text in here A bunch of text in here A bunch of text in here A bunch of text in here</Paper>
               </Grid>
             </Grid>
             <Grid container>
