@@ -1,0 +1,17 @@
+.header {
+    width: 100vw;
+    height: 50px;
+    background: #1F1F1F !important;
+    color: white;
+}
+
+.navLink {
+    flex-direction: row;
+    width: 30px;
+    margin: 5px;
+    color: white;
+}
+
+.navLink:hover {
+    color: white;
+}
