@@ -1,0 +1,15 @@
+.block {
+    text-align: center;
+}
+
+.text {
+    align-self: center;
+}
+
+.full-width {
+    width: 100vw;
+}
+
+.stateImg {
+    height: 30vw;
+}
