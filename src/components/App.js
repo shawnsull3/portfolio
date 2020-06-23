@@ -9,16 +9,18 @@ function App() {
   return (
     <div className='container-flex h-100'>
       <div className='d-flex justify-content-center'>
-        <div className='row'>
-          <Header />
+        <div>
+          <div className='row'>
+            <Header />
+          </div>
+          <div className='row'>
+            <Switch>
+              <Route exact path='/'/>
+              <Route exact path='/portfolio' component={Portfolio} />
+              <Route exact path='/about' component={About} />
+            </Switch>
+            </div>
         </div>
-        <div classname='row main'>
-          <Switch>
-            <Route exact path='/'/>
-            <Route exact path='/portfolio' component={Portfolio} />
-            <Route exact path='/about' component={About} />
-          </Switch>
-         </div>
 	    </div>
     </div>
   );
