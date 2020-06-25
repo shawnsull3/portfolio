@@ -27,7 +27,7 @@ export class Books extends Component {
   render() {
     return (
         <div className='col-12'>
-            <div className='row justify-content-center'>Description about these notes</div>
+            <div className='row justify-content-center notes-info'>Description about these notes</div>
             <div className='row'>
               <BooksList books={this.state.books} />
             </div>

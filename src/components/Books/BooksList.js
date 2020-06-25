@@ -6,9 +6,15 @@ const BooksList = ({ books }) => {
       {books.map( (book, i) => {
         return (
             <div className='col-8 entry' key={i} >
-                <div>{book.title}</div>
-                <div>{book.author}</div>
-                <img className='book-image' src={book.imageURL} alt={book.title} />
+                <div className='row'>
+                    <div className='col-3'>
+                        <img className= 'book-image' src={book.imageURL} alt={book.title} />
+                    </div>
+                    <div className='col-9 info'>
+                        <div className='title'>{book.title}</div>
+                        <div className='author'>{book.author}</div>     
+                    </div>
+                </div>
             </div>
         )
       })}

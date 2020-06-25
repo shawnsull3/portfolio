@@ -1,7 +1,21 @@
+.author {
+    margin-left: 15px;
+}
+
 .book-image {
     height: 20vh
 }
 
 .entry {
     margin-bottom: 30px;
+}
+
+.notes-info {
+    margin: 20px 0px 30px 0px;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 15px;
 }
