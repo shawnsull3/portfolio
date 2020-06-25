@@ -15,6 +15,9 @@ const Header = () => {
             <Link to='/about' style={{ textDecoration: 'none' }} className='navLink'>
               About
             </Link>
+            <Link to='/books' style={{ textDecoration: 'none' }} className='navLink'>
+              Books
+            </Link>
           </div>
           <div className='col-4'>Contact info</div>
         </div>
