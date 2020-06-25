@@ -6,3 +6,8 @@ html {
   background: white !important;
   font-family: Comfortaa;
 }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
