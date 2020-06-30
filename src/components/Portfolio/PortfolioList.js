@@ -24,7 +24,7 @@ const PortfolioList = ({ projects }) => {
                     <p className='col-12 tech-text'>Technologies:</p>
                     {project.technologies.map( (technology, i) => {
                         return (
-                            <div className='technologies' key={i}>{technology}</div>
+                            <p className='technologies' key={i}>{technology}</p>
                         )
                     })}
                 </div>

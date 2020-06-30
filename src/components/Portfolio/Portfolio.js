@@ -34,14 +34,9 @@ class Portfolio extends Component {
       <div className='col-12'>
         <div className='row portfolio'>
           <div className='col-12'>
-            <h2>
+            <h2 className='portfolio-title'>
               Portfolio
             </h2>
-          </div>
-          <div className='col-12'>
-            <p>
-              Below is a list of completed and on going projects I have developed. 
-            </p>
           </div>
         </div>
         <div className='row'>
