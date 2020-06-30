@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PortfolioList from './PortfolioList'
 import '../../styles/Portfolio.css';
 
 class Portfolio extends Component {
@@ -27,6 +28,8 @@ class Portfolio extends Component {
   }
 
   render() {
+    const { projects } = this.state;
+    
     return (
       <div className='col-12'>
         <div className='row portfolio'>
@@ -40,6 +43,9 @@ class Portfolio extends Component {
               Below is a list of completed and on going projects I have developed. 
             </p>
           </div>
+        </div>
+        <div className='row'>
+          <PortfolioList  projects={projects} />
         </div>
       </div>
     )
