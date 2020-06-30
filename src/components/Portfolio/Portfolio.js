@@ -12,7 +12,7 @@ class Portfolio extends Component {
             subtitle: 'Find Quality Investors for Your Startup',
             description: 'Placeholder text for the time being. Placeholder text for the time being. Placeholder text for the time being.',
             technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`],
-            github: 'https://github.com/shawnsull3/seedspot',
+            githubLink: 'https://github.com/shawnsull3/seedspot',
             photos: ['']
           },
           {
@@ -20,7 +20,7 @@ class Portfolio extends Component {
             subtitle: 'Track and Improve Your Daily Habits',
             description: 'Placeholder text for the time being. Placeholder text for the time being. Placeholder text for the time being.',
             technologies: ['React Native', 'Node.js', 'Express', 'MongoDB'],
-            github: 'https://github.com/shawnsull3/trackit',
+            githubLink: 'https://github.com/shawnsull3/trackit',
             photos: ['']
           }
         ]
@@ -29,7 +29,7 @@ class Portfolio extends Component {
 
   render() {
     const { projects } = this.state;
-    
+
     return (
       <div className='col-12'>
         <div className='row portfolio'>

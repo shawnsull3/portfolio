@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const PortfolioList = ({ projects }) => {
   return (
@@ -8,12 +8,16 @@ const PortfolioList = ({ projects }) => {
             <div className='col-12 col-sm-10 entry' key={i} >
                 <div className='row'>
                     <div className='col-12 col-sm-9 info'>
-                        <h3 className=''>{project.title}</h3>
-                        <h5 className=''>{project.subtitle}</h5> 
+                        <h3 className='project-title' onClick={() => window.open(project.githubLink)} >{project.title}</h3>
+                        <h5 className='project-subtitle'>{project.subtitle}</h5> 
                         <p>{project.description}</p>    
                     </div>
                     <div className='col-12 col-sm-3'>
-                        <img className= 'project-image' src={project.photos[0]} alt={project.title} />
+                        <img className= 'project-image' 
+                            src={project.photos[0]} 
+                            alt={project.title} 
+                            onClick={() => window.open(project.githubLink)}
+                        />
                     </div>
                 </div>
             </div>
