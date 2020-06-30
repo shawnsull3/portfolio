@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
-import Portfolio from './Portfolio';
+import Portfolio from './Portfolio/Portfolio';
 import About from './About';
 import Books from './Books/Books';
 import '../styles/App.css';
