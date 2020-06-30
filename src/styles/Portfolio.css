@@ -9,5 +9,17 @@
 
 .project-title:hover {
     cursor: pointer;
-    color: #01BAEF;
+    color: #087cc9;
+    text-decoration: underline;
+}
+
+.tech-text {
+    margin-bottom: 0px;
+}
+
+.technologies {
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: #087cc9;
+    color: white;
 }

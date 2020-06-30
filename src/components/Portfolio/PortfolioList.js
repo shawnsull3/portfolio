@@ -20,6 +20,14 @@ const PortfolioList = ({ projects }) => {
                         />
                     </div>
                 </div>
+                <div className='row'>
+                    <p className='col-12 tech-text'>Technologies:</p>
+                    {project.technologies.map( (technology, i) => {
+                        return (
+                            <div className='technologies' key={i}>{technology}</div>
+                        )
+                    })}
+                </div>
             </div>
         )
       })}
