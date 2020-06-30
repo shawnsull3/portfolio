@@ -19,7 +19,13 @@ const Header = () => {
               Books
             </Link>
           </div>
-          <div className='col-4'>Contact info</div>
+          <div className='col-4'>
+            <div className='row justify-content-end'>
+              <i onClick={() => window.open('https://github.com/shawnsull3')} className="fa fa-github-square contact-icons" aria-hidden="true"></i>
+              <i onClick={() => window.open('https://www.linkedin.com/in/shawnsull3/')} className="fa fa-linkedin-square contact-icons" aria-hidden="true"></i>
+              <i onClick={() => window.open('mailto:sullivansm3@gmail.com')} className="fa fa-envelope contact-icons" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
     )
 }
