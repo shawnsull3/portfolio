@@ -5,6 +5,7 @@ import Portfolio from './Portfolio/Portfolio';
 import ProjectDetails from './Portfolio/ProjectDetails';
 import About from './About';
 import Books from './Books/Books';
+import BookNotes from './Books/BookNotes';
 import '../styles/App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route exact path='/portfolio/:projectTitle' component={ProjectDetails} />
               <Route exact path='/about' component={About} />
               <Route exact path='/books' component={Books} />
+              <Route exact path='/books/:bookTitle' component={BookNotes} />
             </Switch>
             </div>
         </div>
