@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import PortfolioList from './PortfolioList'
+import PortfolioList from './PortfolioList';
 import '../../styles/Portfolio.css';
+
+import seedspot from './ProjectPictures/seedspot.png';
+import metrics from './ProjectPictures/trackit-metrics.png';
 
 class Portfolio extends Component {
   constructor(props) {
@@ -13,7 +16,7 @@ class Portfolio extends Component {
             description: 'Placeholder text for the time being. Placeholder text for the time being. Placeholder text for the time being.',
             technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`],
             githubLink: 'https://github.com/shawnsull3/seedspot',
-            photos: ['']
+            photos: [seedspot]
           },
           {
             title: 'trackIt',
@@ -21,7 +24,7 @@ class Portfolio extends Component {
             description: 'Placeholder text for the time being. Placeholder text for the time being. Placeholder text for the time being.',
             technologies: ['React Native', 'Node.js', 'Express', 'MongoDB'],
             githubLink: 'https://github.com/shawnsull3/trackit',
-            photos: ['']
+            photos: [metrics]
           }
         ]
     }
