@@ -9,7 +9,7 @@
     top: 40%;
     display: block;
     width: 35%;
-    border-bottom: 5px solid #087cc9;
+    border-bottom: 5px solid #e39f3c;
     content: "";
 }
 
@@ -19,18 +19,33 @@
     top: 40%;
     display: block;
     width: 35%;
-    border-bottom: 5px solid #087cc9;
+    border-bottom: 5px solid #e39f3c;
     content: "";
+}
+
+.project-image {
+    width: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
 .project-image:hover {
     cursor: pointer;
+    border: 4px solid #e39f3c;
 }
 
 .project-title:hover {
     cursor: pointer;
-    color: #087cc9;
+    color: #e39f3c;
     text-decoration: underline;
+}
+
+.project-title {
+    color: black;
 }
 
 .tech-text {
@@ -40,7 +55,7 @@
 .technologies {
     margin: 5px;
     padding: 5px 10px 5px 10px;
-    background-color: #087cc9;
+    background-color: #e39f3c;
     color: white;
     border-radius: 20px;
     font-size: 0.9em;
