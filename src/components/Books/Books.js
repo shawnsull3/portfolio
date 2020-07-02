@@ -26,8 +26,18 @@ export class Books extends Component {
 
   render() {
     return (
-        <div className='col-12'>
-            <div className='row justify-content-center notes-info'>Description about these notes</div>
+        <div className='col-12 aaa'>
+            <div className='row justify-content-center notes-info'>
+              <p>
+                I created this because I've wanted to distill down ideas and quotes that I found interesting from various books. Having all these in one place and <strong>searchable</strong> makes returning to certain ideas more accessible.
+              </p>
+              <p>
+                Some of these notes I've written myself from what I read, while others are simply quotes. Thus, direct quotes are shown in, well, quotes obviously. 
+              </p>
+              <p>
+                Simply click on the book title or image to see my notes. Cheers.
+              </p>
+            </div>
             <div className='row'>
               <BooksList books={this.state.books} />
             </div>
