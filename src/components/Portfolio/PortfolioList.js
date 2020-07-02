@@ -6,14 +6,14 @@ const PortfolioList = ({ projects }) => {
     <div className='row justify-content-center'>
       {projects.map( (project, i) => {
         return (
-            <div className='col-12 col-sm-10 entry' key={i} >
+            <div className='col-12 col-sm-10 entry port-entry' key={i} >
                 <div className='row'>
                     <div className='col-12 info'>
                         <h3>
                             <Link to={`/portfolio/${project.title}`} className='project-title'>{project.title}</Link>
                         </h3>
                         <h5 className='project-subtitle'>{project.subtitle}</h5> 
-                        <p>{project.description}</p>    
+                        <p>{project.overview}</p>    
                     </div>
                     <div className='row'>
                         <div className='col-12 col-sm-8'>
