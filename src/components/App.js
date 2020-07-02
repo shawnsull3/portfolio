@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
+import Home from './Home';
 import Portfolio from './Portfolio/Portfolio';
 import ProjectDetails from './Portfolio/ProjectDetails';
 import About from './About';
@@ -18,7 +19,7 @@ function App() {
           </div>
           <div className='row'>
             <Switch>
-              <Route exact path='/'/>
+              <Route exact path='/'component={Home}/>
               <Route exact path='/portfolio' component={Portfolio} />
               <Route exact path='/portfolio/:projectTitle' component={ProjectDetails} />
               <Route exact path='/about' component={About} />
