@@ -13,8 +13,10 @@ const About = () => {
         <div className='row justify-content-center'>
           <div className='col-12 text-center'>
             <img className='about-portrait' src={portrait} alt='portrait of shawn' />
-            <p>sullivansm3@gmail.com</p>
-            <p><a className='about-links' href={resume} target='_blank' rel='noopener noreferrer'>Resume</a></p>
+            <p className='full-name'>SHAWN SULLIVAN</p>
+            <p className='occupation'>FULL-STACK SOFTWARE ENGINEER</p>
+            <p className='about-info'><a className='about-links' href={'mailto:sullivansm3@gmail.com'} target='_blank' rel='noopener noreferrer'>sullivansm3@gmail.com</a></p>
+            <p><a className='about-links about-info' href={resume} target='_blank' rel='noopener noreferrer'>Resume</a></p>
           </div>
         </div>
         <div className='row pic-text-row'>
