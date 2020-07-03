@@ -4,7 +4,7 @@ import Header from './Header';
 import Home from './Home';
 import Portfolio from './Portfolio/Portfolio';
 import ProjectDetails from './Portfolio/ProjectDetails';
-import About from './About';
+import About from './About/About';
 import Books from './Books/Books';
 import BookNotes from './Books/BookNotes';
 import '../styles/App.css';

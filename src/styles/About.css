@@ -1,13 +1,35 @@
-.block {
-    text-align: center;
-}
-
 .text {
     align-self: center;
 }
 
-.stateImg {
-    height: 30vw;
+.aboutImg {
+    width: 100%;
+    opacity: 0.85;
+    border-radius: 30px;
+}
+
+.pt1 {
+    background: url('https://i.pinimg.com/474x/68/93/5e/68935efc09f0f347180f7d1aa279584c.jpg');
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    border-radius: 30px;
+}
+
+.pt2 {
+    background: url('https://thumbs.dreamstime.com/b/gas-mask-isolated-white-background-vector-illustration-concept-57744323.jpg');
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    border-radius: 30px;
+}
+
+.pt3 {
+    background: url('https://thumbs.dreamstime.com/b/desktop-source-code-technology-background-developer-programer-coding-programming-wallpaper-computer-language-125218185.jpg');
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    border-radius: 30px;
 }
 
 .currently {
@@ -27,4 +49,5 @@
 
 .currently-text {
     text-align: center;
+    padding: 0 15% 0 15%;
 }
