@@ -2,11 +2,31 @@
     align-self: center;
 }
 
+.about-portrait {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.about-links {
+    color: #34b8fa;
+}
+
+.about-links:hover {
+    color: white;
+}
+
 .aboutImg {
     width: 100%;
     height: 100%;
     opacity: 0.85;
     border-radius: 30px;
+}
+
+.pic-text-row {
+    margin-bottom: 5%;
 }
 
 .pt1 {
@@ -44,11 +64,24 @@
     top: 70%;
     display: block;
     width: 50%;
-    border-bottom: 5px solid #1F1F1F;
+    border-bottom: 5px solid #34b8fa;
     content: "";
 }
 
 .currently-text {
     text-align: center;
     padding: 0 15% 0 15%;
+}
+
+.about-contact-icons {
+    height: 1em;
+    width: 1em;
+    font-size: 2em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+.about-contact-icons:hover {
+    cursor: pointer;
+    color: white;
 }
