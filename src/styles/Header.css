@@ -1,3 +1,10 @@
+.avatar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .contact-icons {
     height: 1em;
     width: 1em;
@@ -7,20 +14,21 @@
 
 .contact-icons:hover {
     cursor: pointer;
+    color: white;
 }
 
 .header {
     width: 100vw;
-    height: 50px;
-    background: #1F1F1F !important;
-    color: white;
+    height: 95px;
+    background: #34b8fa !important;
+    color: black;
 }
 
 .navLink {
     flex-direction: row;
     width: 30px;
     margin: 5px;
-    color: white;
+    color: black;
 }
 
 .navLink:hover {
