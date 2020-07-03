@@ -26,12 +26,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='row'>
-          <div className='col-12 col-sm-6 text-center align-self-center'>
-            Moved to Colorado for my  first job out of college as a Lab Engineer at <a href='https://www.molecularproducts.com/' target='_blank' rel='noopener noreferrer'>Molecular Products</a>, an air purification company. Here I honed my engineering mind and deepened my love for problem solving, which led me to my next venture of software engineering.
-          </div>
+        <div className='row flex-row-reverse'>
           <div className='col-12 col-sm-6 text-center pt2'>
             <img className='aboutImg' src={huron} alt="Colorado" /> 
+          </div>
+          <div className='col-12 col-sm-6 text-center align-self-center'>
+            Moved to Colorado for my  first job out of college as a Lab Engineer at <a href='https://www.molecularproducts.com/' target='_blank' rel='noopener noreferrer'>Molecular Products</a>, an air purification company. Here I honed my engineering mind and deepened my love for problem solving, which led me to my next venture of software engineering.
           </div>
         </div>
         <div className='row'>
