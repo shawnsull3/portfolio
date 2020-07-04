@@ -25,21 +25,21 @@ const About = () => {
           </div>
           <div className='col-12 col-sm-6 text-center align-self-center'>
             <p>
-              Born and raised in Iowa. Developed a deep love of legos and realized my future did not lie within sports. Attended the University of Iowa (S’Go Hawks!) and graduated with a B.S. in Chemical Engineering and a minor in Chemistry.
+              Born and raised in Iowa. Developed a deep love of legos and quickly realized my future did NOT lie within sports. Attended the University of Iowa (S’Go Hawks!) and graduated with a B.S. in Chemical Engineering and a minor in Chemistry.
             </p>
           </div>
         </div>
         <div className='row flex-row-reverse pic-text-row'>
           <div className='col-12 col-sm-6 text-center pt2'>
-            <img className='aboutImg' src={huron} alt="Colorado" /> 
+            <img className='aboutImg' src={climb} alt="Colorado" /> 
           </div>
           <div className='col-12 col-sm-6 text-center align-self-center'>
-            Moved to Colorado for my  first job out of college as a Lab Engineer at <a className='about-links' href='https://www.molecularproducts.com/' target='_blank' rel='noopener noreferrer'>Molecular Products</a>, an air purification company. Here I honed my engineering mind and deepened my love for problem solving, which led me to my next venture of software engineering.
+            Moved to Colorado to work as a Lab Engineer at <a className='about-links' href='https://www.molecularproducts.com/' target='_blank' rel='noopener noreferrer'>Molecular Products</a>, an air purification company. Here I honed my engineering mind and deepened my affection for solving technical problems, which led me to my next venture of software engineering.
           </div>
         </div>
         <div className='row pic-text-row'>
           <div className='col-12 col-sm-6 text-center pt3'>
-            <img className='aboutImg' src={climb} alt="Colorado" /> 
+            <img className='aboutImg' src={huron} alt="Colorado" /> 
           </div>
           <div className='col-12 col-sm-6 text-center align-self-center'>
             Enrolled in the <a className='about-links' href='https://www.galvanize.com/web-development' target='_blank' rel='noopener noreferrer'>Software Engineering Immersive Program</a> through Galvanize. Throughout the program I learned the ins and outs of full stack JavaScript development by building and deploying web and mobile applications. 
