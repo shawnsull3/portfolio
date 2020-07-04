@@ -3,7 +3,8 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #fafafa !important;
+  background: #1F1F1F;
+  color: white;
   font-family: Comfortaa;
 }
 
@@ -16,4 +17,5 @@ html {
   margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 3px 1px 10px 1px #1F1F1F;
+  background-color: whitesmoke;
 }
