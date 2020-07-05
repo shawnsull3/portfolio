@@ -19,11 +19,11 @@ const ProjectDetails = ({ match }) => {
                 <div className='row'>
                   <div className='col-12 col-md-8'>
                       <div>
-                        <a href={project.githubLink} className='project-links'>Github</a>
+                        <a href={project.githubLink} className='project-links'>Github Repo</a>
                       </div>
                       {project.url !== '' ? 
                         <a href={project.url} className='project-links'>{project.url}</a>
-                        : <p className='in-development'>In development</p>                      
+                        : <p className='in-development'>{project.noURL}</p>                      
                       }
                       <div>
                         <p>{project.overview}</p>   
@@ -48,8 +48,10 @@ const ProjectDetails = ({ match }) => {
                   </div>
                 </div>
 
-                <div className='row'>
-                  {project.photos.map( (photo, i) => <img src={photo} className='details-images' alt='' key={i}/>)}
+                <div className='row justify-content-center'>
+                  <div className='col-10 text-center'>
+                    {project.photos.map( (photo, i) => <img src={photo} className='details-images' alt='' key={i}/>)}
+                  </div>
                 </div>
 
             </div>
