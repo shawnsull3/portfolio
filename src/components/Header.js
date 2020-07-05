@@ -26,7 +26,7 @@ const Header = () => {
             </Link>
           </div>
           <div className='col-12 col-sm-2'>
-            <div className='row'>
+            <div className='row justify-content-center'>
               <i onClick={() => window.open('https://github.com/shawnsull3')} className="fa fa-github-square contact-icons" aria-hidden="true"></i>
               <i onClick={() => window.open('https://www.linkedin.com/in/shawnsull3/')} className="fa fa-linkedin-square contact-icons" aria-hidden="true"></i>
               <i onClick={() => window.open('mailto:sullivansm3@gmail.com')} className="fa fa-envelope contact-icons" aria-hidden="true"></i>
