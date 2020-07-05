@@ -17,17 +17,26 @@ const ProjectDetails = ({ match }) => {
                 </div>
 
                 <div className='row'>
-                  <div className='col-12 col-md-6'>
+                  <div className='col-12 col-md-8'>
                       <div>
-                      <a href={project.githubLink} className='project-links'>Github</a>
-
+                        <a href={project.githubLink} className='project-links'>Github</a>
                       </div>
-                      {project.url !== '' && <a href={project.url} className='project-links'>{project.url}</a>}
+                      {project.url !== '' ? 
+                        <a href={project.url} className='project-links'>{project.url}</a>
+                        : <p className='in-development'>In development</p>                      
+                      }
                       <div>
                         <p>{project.overview}</p>   
                       </div>
+                      <ul>
+                        {project.description.map( (bullet, i) => {
+                          return (
+                            <li key={i}>{bullet}</li>
+                          )
+                        })}
+                      </ul>
                   </div>
-                  <div className='col-12 col-md-6'>
+                  <div className='col-12 col-md-4'>
                       <div className='row'>
                         <p className='col-12 tech-text'>Technologies:</p>
                         {project.technologies.map( (technology, i) => {
