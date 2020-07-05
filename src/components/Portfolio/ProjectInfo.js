@@ -14,14 +14,14 @@ const projects = [
     {
         title: 'SeedSpot',
         subtitle: 'Find Quality Investors for Your Startup',
-        overview: 'A web application for New Stack Ventures that provides users with a list of quality firms that are within the company’s niche for funding based on provided information.',
+        overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
         technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
         photos: [seedspot, seedspot2, reportCardExample],
         url: '',
         noURL: 'In development',
         description: [
-            `After filling out the company information form, the information is run through an algorithm that returns the top 30 investors for that startup.`,
+            `The application collects relevant information about the founder’s company and matches them with ideal fits for their business given their company’s niche.`,
             `Utilizing the provided information an estimated valuation produced & each metric is evaluated and given a grade.`,
             `The investor list and report card are emailed to the user via Twilio’s Sendgrid API.`,
         ],
