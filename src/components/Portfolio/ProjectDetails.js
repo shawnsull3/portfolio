@@ -19,7 +19,7 @@ const ProjectDetails = ({ match }) => {
                 <div className='row'>
                   <div className='col-12 col-md-8'>
                       <div>
-                        <a href={project.githubLink} className='project-links'>Github Repo</a>
+                        <a href={project.githubLink} className='project-links' target='_blank' rel='noopener noreferrer'>Github Repo</a>
                       </div>
                       {project.url !== '' ? 
                         <a href={project.url} className='project-links'>{project.url}</a>
