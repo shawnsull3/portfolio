@@ -1,3 +1,7 @@
+.details-title {
+    margin-top: 20px;
+}
+
 .details-images {
     max-width: 100%;
     max-height: 568px;
@@ -72,6 +76,7 @@
 
 .project-title {
     color: black;
+    margin-top: 20px;
 }
 
 .project-links {

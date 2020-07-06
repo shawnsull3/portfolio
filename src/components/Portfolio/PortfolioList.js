@@ -9,7 +9,7 @@ const PortfolioList = ({ projects }) => {
             <div className='col-12 col-sm-10 entry port-entry' key={i} >
                 <div className='row'>
                     <div className='col-12 info'>
-                        <h3>
+                        <h3 className='project-title'>
                             <Link to={`/portfolio/${project.title}`} className='project-title'>{project.title}</Link>
                         </h3>
                         <h5 className='project-subtitle'>{project.subtitle}</h5> 

@@ -9,7 +9,7 @@ const ProjectDetails = ({ match }) => {
         <div className='row justify-content-center'>
             <div className='col-12 col-lg-10'>
                 <div className='row'>
-                  <h1 className='col-12'>{project.title}</h1>
+                  <h1 className='col-12 details-title'>{project.title}</h1>
                 </div>
 
                 <div className='row'>
