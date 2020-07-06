@@ -15,7 +15,7 @@ const projects = [
         title: 'SeedSpot',
         subtitle: 'Find Quality Investors for Your Startup',
         overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
-        technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS'],
+        technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
         photos: [seedspot, seedspot2, reportCardExample],
         url: '',
@@ -54,6 +54,7 @@ const projects = [
             `RESTful API routes were created for the server to interact with the SQL database.`,
             `Deployed server and database on EC2 instances through AWS.`,
             `Generated 10 Million questions to stress test the system locally and in production.`,
+            'The deployed backend could handle approximately 730 RPS, with an average http reponse time of 122 ms, and 0% error rate',
             'Detailed stress test results & summary can be found under Github Repo README.'
         ]
     },
