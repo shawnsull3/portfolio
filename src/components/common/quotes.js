@@ -22,6 +22,10 @@ const quotes = [
     `“A society grows great when old men plant trees, the shade of which they know they’ll never sit in.”`,
     `"It's the truth I'm after, and the truth never harmed anyone. What harms us is to persist in self-deceit and ignorance." - Marcus Aurelius`,
     `“If it is peace you want, seek to change yourself, not other people. It is easier to protect your feet with slippers than to carpet the whole of the earth.” — Anthony de Mello`,
+    `“Gandalf: All we have to decide is what to do with the time that is given to us.” ― J.R.R. Tolkien`,
+    `"It is by logic that we prove, but by intuition that we discover." - Henri Poincaré`,
+    `“We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.” - Carl Sagan`,
+    `“Anyone who has never made a mistake has never tried anything new.” ― Albert Einstein`,
 ]
 
 export default quotes;
