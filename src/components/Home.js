@@ -28,7 +28,7 @@ const Home = () => {
             <div className='col-12 col-sm-8 text-center'>
               <h4 className='section-title'>Software Skills</h4>
             </div>
-            <div className='col-12 text-center'>
+            <div className='col-12 col-sm-8 text-center'>
               <div className='row justify-content-center'>
                 <div className='skill-container'>
                   <img src="https://img.icons8.com/color/144/000000/react-native.png"  
