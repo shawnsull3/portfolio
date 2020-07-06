@@ -8,8 +8,14 @@
 .contact-icons {
     height: 1em;
     width: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-right: 5%;
+}
+
+@media (max-width: 500px) {
+    .contact-icons {
+        font-size: 1.5em;
+    }
 }
 
 .contact-icons:hover {
@@ -26,9 +32,16 @@
 
 .navLink {
     flex-direction: row;
+    font-size: 1.5em;
     width: 30px;
     margin: 5px;
     color: black;
+}
+
+@media (max-width: 500px) {
+    .navLink {
+        font-size: 1em;
+    }
 }
 
 .navLink:hover {
