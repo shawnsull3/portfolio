@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
                 <div className='skill-container'>
                   <img src="https://img.icons8.com/color/144/000000/redux.png"  
-                    data-toggle="tooltip" data-placement="top" title="React" 
+                    data-toggle="tooltip" data-placement="top" title="Redux" 
                     className="skill-icons" alt='Redux' />
                 </div>
                 <div className='skill-container'>
