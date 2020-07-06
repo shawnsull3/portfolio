@@ -21,9 +21,9 @@ const Header = () => {
             <Link to='/about' className='navLink'>
               About
             </Link>
-            <Link to='/books' className='navLink'>
+            {/* <Link to='/books' className='navLink'>
               Books
-            </Link>
+            </Link> */}
           </div>
           <div className='col-12 col-sm-2'>
             <div className='row justify-content-center'>
