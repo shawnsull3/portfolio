@@ -1,5 +1,6 @@
 import seedspot from './ProjectPictures/seedspot.png';
 import seedspot2 from './ProjectPictures/seedspot2.png';
+import seedspot3 from './ProjectPictures/seedspot3.png';
 import reportCardExample from './ProjectPictures/reportCardExample.png';
 
 import metrics from './ProjectPictures/trackit-metrics.png';
