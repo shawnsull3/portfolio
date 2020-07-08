@@ -18,7 +18,7 @@ const projects = [
         overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
         technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
-        photos: [seedspot, seedspot2, reportCardExample],
+        photos: [seedspot, seedspot2, seedspot3, reportCardExample],
         url: '',
         noURL: 'In development',
         description: [
