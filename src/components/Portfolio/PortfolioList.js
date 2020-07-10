@@ -33,6 +33,11 @@ const PortfolioList = ({ projects }) => {
                                     )
                                 })}
                             </div>
+                            <div className='text-center'>
+                                <Link to={`/portfolio/${project.title}`} className='text-center'>
+                                    <p className='more-details'>More details &#xbb;</p>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
