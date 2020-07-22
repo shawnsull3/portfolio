@@ -1,7 +1,8 @@
-import seedspot from './ProjectPictures/seedspot.png';
+import seedspot1 from './ProjectPictures/seedspot1.png';
 import seedspot2 from './ProjectPictures/seedspot2.png';
 import seedspot3 from './ProjectPictures/seedspot3.png';
-import reportCardExample from './ProjectPictures/reportCardExample.png';
+import seedspot4 from './ProjectPictures/seedspot4.png';
+import seedspot5 from './ProjectPictures/seedspot5.png';
 
 import metrics from './ProjectPictures/trackit-metrics.png';
 import trackit from './ProjectPictures/trackit.png';
@@ -13,18 +14,19 @@ import tigereye2 from './ProjectPictures/tigereye2.png';
 
 const projects = [
     {
-        title: 'SeedSpot',
+        title: 'Founder Toolkit',
         subtitle: 'Find Quality Investors for Your Startup',
         overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
         technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
-        photos: [seedspot, seedspot2, seedspot3, reportCardExample],
-        url: '',
+        photos: [seedspot1, seedspot2, seedspot3, seedspot4, seedspot5],
+        url: 'https://founder-toolkit.herokuapp.com/',
         noURL: 'In development',
         description: [
             `The application collects relevant information about the founder’s company and matches them with ideal fits for their business given their company’s niche.`,
-            `Utilizing the provided information an estimated valuation produced & each metric is evaluated and given a grade.`,
-            `The investor list and report card are emailed to the user via Twilio’s Sendgrid API.`,
+            `The investor list is emailed to the user via Twilio’s Sendgrid API.`,
+            `Developed and tested full-stack functionality to allow asynchronous data loading and transfer using React and Node.js`,
+            `Designed attractive and responsive UI to fit New Stack & The Full Ratchet’s branding`,
         ],
     },
     {
