@@ -7,13 +7,13 @@ const Home = () => {
     return (
         <div className='col-12'>
           <div className='row justify-content-center'>
-            <div className='col-12 col-sm-8 text-center'>
+            <div className='col-12 col-sm-8 col-lg-6 text-center'>
               <p className='quote'>{quotes[randomIndex]}</p>
             </div>
           </div>
 
           <div className='row justify-content-center'>
-            <div className='col-12 col-sm-8'>
+            <div className='col-12 col-sm-8 col-lg-6'>
                 <h4 className='section-title text-center'>Me in 20 seconds</h4>
                 I am a..
                 <ul>
@@ -28,7 +28,7 @@ const Home = () => {
             <div className='col-12 col-sm-8 text-center'>
               <h4 className='section-title'>Software Skills</h4>
             </div>
-            <div className='col-12 col-sm-8 text-center'>
+            <div className='col-12 col-sm-8 col-lg-6 text-center'>
               <div className='row justify-content-center'>
                 <div className='skill-container'>
                   <img src="https://img.icons8.com/color/144/000000/react-native.png"  
