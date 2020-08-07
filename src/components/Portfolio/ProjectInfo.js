@@ -14,7 +14,7 @@ import tigereye2 from './ProjectPictures/tigereye2.png';
 
 const projects = [
     {
-        title: 'Founder Toolkit',
+        title: 'VC Rank',
         subtitle: 'Find Quality Investors for Your Startup',
         overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
         technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
@@ -27,6 +27,21 @@ const projects = [
             `The investor list is emailed to the user via Twilio’s Sendgrid API.`,
             `Developed and tested full-stack functionality to allow asynchronous data loading and transfer using React and Node.js`,
             `Designed attractive and responsive UI to fit New Stack & The Full Ratchet’s branding`,
+        ],
+    },
+    {
+        title: `Tiger Eye`,
+        subtitle: 'Fashion & Fury',
+        overview: `Responsive retail web application for customers to browse, review and purchase products`,
+        technologies: ['React', 'Node.js', 'Redux', 'Bootstrap', 'CircleCI', 'SASS', 'Axios'],
+        githubLink: 'https://github.com/shawnsull3/tiger-eye',
+        photos: [tigereye1, tigereye2],
+        url: '',
+        noURL: 'No longer deployed due to AWS costs',
+        description: [
+            `Designed and implemented UI & UX for Product Overview component`,
+            `Utilized Agile development, Trello, and CircleCI to streamline team workflow`,
+            `Allow users to enlarge images and magnification on the cursor for closer inspection`,
         ],
     },
     {
@@ -60,21 +75,6 @@ const projects = [
             'The deployed backend could handle approximately 730 RPS, with an average http reponse time of 122 ms, and 0% error rate',
             'Detailed stress test results & summary can be found under Github Repo README.'
         ]
-    },
-    {
-        title: `Tiger Eye`,
-        subtitle: 'Fashion & Fury',
-        overview: `Responsive retail web application for customers to browse, review and purchase products`,
-        technologies: ['React', 'Node.js', 'Redux', 'Bootstrap', 'CircleCI', 'SASS', 'Axios'],
-        githubLink: 'https://github.com/shawnsull3/tiger-eye',
-        photos: [tigereye1, tigereye2],
-        url: '',
-        noURL: 'No longer deployed due to AWS costs',
-        description: [
-            `Designed and implemented UI & UX for Product Overview component`,
-            `Utilized Agile development, Trello, and CircleCI to streamline team workflow`,
-            `Allow users to enlarge images and magnification on the cursor for closer inspection`,
-        ],
     },
 ];
 
