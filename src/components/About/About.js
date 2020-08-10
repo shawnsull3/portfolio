@@ -9,7 +9,7 @@ import '../../styles/About.css';
 const About = () => {
 
     return (
-      <div className='col-12'>
+      <div className='col-12 col-md-10'>
         <div className='row justify-content-center'>
           <div className='col-12 text-center'>
             <img className='about-portrait' src={portrait} alt='portrait of shawn' />
