@@ -17,7 +17,7 @@ function App() {
           <div className='row'>
             <Header />
           </div>
-          <div className='row'>
+          <div className='row justify-content-center'>
             <Switch>
               <Route exact path='/'component={Home}/>
               <Route exact path='/portfolio' component={Portfolio} />
