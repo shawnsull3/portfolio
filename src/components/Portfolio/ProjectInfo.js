@@ -20,7 +20,7 @@ const projects = [
         technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
         photos: [seedspot1, seedspot2, seedspot3, seedspot4, seedspot5],
-        url: 'https://founder-toolkit.herokuapp.com/',
+        url: 'https://www.vc-rank.com/',
         noURL: 'In development',
         description: [
             `The application collects relevant information about the founder’s company and matches them with ideal fits for their business given their company’s niche.`,
