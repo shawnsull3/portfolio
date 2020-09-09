@@ -18,7 +18,7 @@ const Home = () => {
                 I am a..
                 <ul>
                     <li>Software developer converted from the chemical engineering realm, who’s currently looking for a full-time software engineering position.</li>
-                    <li>Generalist who enjoys damn near everything: reading, biking, coding, hiking, music, cooking...the list goes on ad infinitum.</li>
+                    <li>Generalist who enjoys damn near everything: reading, biking, coding, climbing, music, cooking...the list goes on ad infinitum.</li>
                     <li>Self-proclaimed nerd, problem solver, amateur musician, and clumsy adventurer.</li>
                 </ul>
             </div>
