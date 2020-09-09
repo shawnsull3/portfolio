@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import quotes from './common/quotes';
 import '../styles/Home.css';
-import { render } from '@testing-library/react';
 
 class Home extends Component {
   constructor(props) {
