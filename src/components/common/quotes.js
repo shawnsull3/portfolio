@@ -17,7 +17,6 @@ const quotes = [
     `"When you're so sure you're right that you're willing to burn things down, it turns out that everyone is standing in a burning building sooner or later" - Seth Godin`,
     `“The truth is, we know so little about life, we don’t really know what the good news is and what the bad news is” - Kurt Vonnegut`,
     `"Life shrinks or expands in proportion to one's courage" - Anais Nin`,
-    `“If we can forgive what's been done to us... If we can forgive what we've done to others... If we can leave our stories behind. Our being victims and villains. Only then can we maybe rescue the world.” — Chuck Palahniuk`,
     `"What you allow is what will continue."`,
     `“A society grows great when old men plant trees, the shade of which they know they’ll never sit in.”`,
     `"It's the truth I'm after, and the truth never harmed anyone. What harms us is to persist in self-deceit and ignorance." - Marcus Aurelius`,
