@@ -1,14 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import quotes from './common/quotes';
 import '../styles/Home.css';
+import { render } from '@testing-library/react';
 
-const Home = () => {
-    const randomIndex = Math.floor(Math.random() * ((quotes.length-1) - 0 + 1) + 0);
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        randomIndex: Math.floor(Math.random() * ((quotes.length-1) - 0 + 1) + 0)
+    }
+  }
+
+  render() {
+
     return (
         <div className='col-12'>
           <div className='row justify-content-center'>
             <div className='col-12 col-sm-8 col-lg-6 text-center'>
-              <p className='quote'>{quotes[randomIndex]}</p>
+              <p className='quote'>{quotes[this.state.randomIndex]}</p>
+              <i className="fa fa-random" onClick={() => {
+                this.setState({ randomIndex: Math.floor(Math.random() * ((quotes.length-1) - 0 + 1) + 0) })
+                
+              }}></i>
             </div>
           </div>
 
@@ -92,6 +105,7 @@ const Home = () => {
 
         </div>
     )
+  }
 }
 
 export default Home;
