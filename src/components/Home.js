@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import quotes from './common/quotes';
 import '../styles/Home.css';
+import '../../node_modules/animate.css';
 
 class Home extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Home extends Component {
   render() {
 
     return (
-        <div className='col-12'>
+        <div className='col-12 animate__animated animate__fadeIn animate__slower'>
           <div className='row justify-content-center'>
             <div className='col-12 col-sm-8 col-lg-6 text-center'>
               <p className='quote'>{quotes[this.state.randomIndex]}</p>

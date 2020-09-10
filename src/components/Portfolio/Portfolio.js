@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PortfolioList from './PortfolioList';
 import projects from './ProjectInfo';
 import '../../styles/Portfolio.css';
+import '../../../node_modules/animate.css'
 
 class Portfolio extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class Portfolio extends Component {
     const { projects } = this.state;
 
     return (
-      <div className='col-12 portfolio'>
+      <div className='col-12 portfolio animate__animated animate__fadeIn animate__slower'>
         <div className='row'>
           <div className='col-12'>
             <h2 className='portfolio-title'>

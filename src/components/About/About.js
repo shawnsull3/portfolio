@@ -5,11 +5,12 @@ import iowa from './Images/iowa.jpg';
 import climb from './Images/climb.jpg'
 import huron from './Images/huron.jpg';
 import '../../styles/About.css';
+import '../../../node_modules/animate.css';
 
 const About = () => {
 
     return (
-      <div className='col-12 col-md-10'>
+      <div className='col-12 col-md-10 animate__animated animate__fadeIn animate__slower'>
         <div className='row justify-content-center'>
           <div className='col-12 text-center'>
             <img className='about-portrait' src={portrait} alt='portrait of shawn' />
