@@ -25,7 +25,8 @@ const quotes = [
     `"It is by logic that we prove, but by intuition that we discover." - Henri Poincaré`,
     `“We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.” - Carl Sagan`,
     `“Anyone who has never made a mistake has never tried anything new.” ― Albert Einstein`,
-    `"What I cannot create, I do not understand." - Richard Feynman`
+    `"What I cannot create, I do not understand." - Richard Feynman`,
+    `"An expert is a person who has found out by painful experience all the mistakes that one can make in a very narrow field." - Niels Bohr`
 ]
 
 export default quotes;
