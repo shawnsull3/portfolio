@@ -26,7 +26,10 @@ const quotes = [
     `“We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.” - Carl Sagan`,
     `“Anyone who has never made a mistake has never tried anything new.” ― Albert Einstein`,
     `"What I cannot create, I do not understand." - Richard Feynman`,
-    `"An expert is a person who has found out by painful experience all the mistakes that one can make in a very narrow field." - Niels Bohr`
+    `"An expert is a person who has found out by painful experience all the mistakes that one can make in a very narrow field." - Niels Bohr`,
+    `“Happiness is the absence of the striving for happiness.” - Chuang-Tzu`,
+    `"Only those who are asleep make no mistakes. - Ingvar Kamprad`,
+    `"All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to sufffer." - Niccolò Machiavelli`
 ]
 
 export default quotes;
