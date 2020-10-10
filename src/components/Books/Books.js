@@ -26,16 +26,18 @@ export class Books extends Component {
 
   render() {
     return (
-        <div className='col-12 aaa'>
+        <div className='col-12'>
+          <div className='row justify-content-center'>
+            <div className='col-12 col-sm-10 text-center'>
+              <p className='quote'>	
+              "What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic." 
+              <div>— Carl Sagan</div>
+              </p>
+            </div>
+          </div>
             <div className='row justify-content-center notes-info'>
               <p>
-                I created this because I've wanted to distill down ideas and quotes that I found interesting from various books. Having all these in one place and <strong>searchable</strong> makes returning to certain ideas more accessible.
-              </p>
-              <p>
-                Some of these notes I've written myself from what I read, while others are simply quotes. Thus, direct quotes are shown in, well, quotes obviously. 
-              </p>
-              <p>
-                Simply click on the book title or image to see my notes. Cheers.
+                I created this because I've wanted to distill down ideas and quotes that I found interesting from various books. Having all these in one place and <strong>searchable</strong> makes returning to certain ideas more accessible. Some of these notes I've written myself from what I read, while others are simply quotes from the book.
               </p>
             </div>
             <div className='row'>
