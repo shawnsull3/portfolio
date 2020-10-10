@@ -1,13 +1,17 @@
 .author {
-    margin-left: 15px;
+}
+
+.aaa{
+    /* background-color: #34b8fa; */
+    color: white;
 }
 
 .book-image {
-    height: 20vh
-}
-
-.entry {
-    margin-bottom: 30px;
+    height: 20vh;
+    margin: auto;    
+    display: block;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 .notes-info {
@@ -15,7 +19,10 @@
 }
 
 .title {
-    font-size: 1.2em;
     font-weight: bold;
-    margin-left: 15px;
+    color: black;
+}
+
+.title:hover {
+    color: #34b8fa;;
 }
