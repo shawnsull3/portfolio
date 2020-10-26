@@ -3,6 +3,7 @@ import seedspot2 from './ProjectPictures/seedspot2.png';
 import seedspot3 from './ProjectPictures/seedspot3.png';
 import seedspot4 from './ProjectPictures/seedspot4.png';
 import seedspot5 from './ProjectPictures/seedspot5.png';
+import seedspot6 from './ProjectPictures/seedspot6.png';
 
 import metrics from './ProjectPictures/trackit-metrics.png';
 import trackit from './ProjectPictures/trackit.png';
@@ -17,16 +18,18 @@ const projects = [
         title: 'VC Rank',
         subtitle: 'Find Quality Investors for Your Startup',
         overview: 'A web application for New Stack Ventures that provides founders with a list of venture firms for their next fundraise.',
-        technologies: ['React', 'Node.js', 'AirTable', `Twilio's SendGrid`, 'Bootstrap', 'CSS', 'Express'],
+        technologies: ['React', 'Node.js', 'AirTable', `Python`, 'Bootstrap', 'CSS', 'Express'],
         githubLink: 'https://github.com/shawnsull3/seedspot',
-        photos: [seedspot1, seedspot2, seedspot3, seedspot4, seedspot5],
+        photos: [seedspot1, seedspot2, seedspot3, seedspot4, seedspot5, seedspot6],
         url: 'https://www.vc-rank.com/',
         noURL: 'In development',
         description: [
             `The application collects relevant information about the founder’s company and matches them with ideal fits for their business given their company’s niche.`,
-            `The investor list is emailed to the user via Twilio’s Sendgrid API.`,
             `Developed and tested full-stack functionality to allow asynchronous data loading and transfer using React and Node.js`,
             `Designed attractive and responsive UI to fit New Stack & The Full Ratchet’s branding`,
+            `Built a custom RESTful API to integrate the app with an AirTable database.`,
+            `Implemented a Python web scraper to gather VC Firm data from various websites like ​crunchbase.com`,
+            `Formulated an algorithm to filter, score, and return a personalized VC list for each user.`
         ],
     },
     {
