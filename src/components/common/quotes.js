@@ -1,5 +1,5 @@
 const quotes = [
-    `“Desire is suffering. Every desire you have is an axis where you will suffer. So just don’t focus on more than one desire to time." - Naval Ravikant`,
+    `“Desire is suffering. Every desire you have is an axis where you will suffer. So don’t focus on more than one desire at a time." - Naval Ravikant`,
     `"Specialization is for insects.” - Robert A. Heinlein`,
     `“The ultimate purpose of life, mind, and human striving: to deploy energy and information to fight back the tide of entropy and carve out refuges of beneficial order.” - Steven Pinker`,
     `"When you learn how to be curious, you create an arc of learning that continues for the rest of your life" - Neil deGrasse Tyson`,
@@ -29,7 +29,8 @@ const quotes = [
     `"An expert is a person who has found out by painful experience all the mistakes that one can make in a very narrow field." - Niels Bohr`,
     `“Happiness is the absence of the striving for happiness.” - Chuang-Tzu`,
     `"Only those who are asleep make no mistakes. - Ingvar Kamprad`,
-    `"All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to sufffer." - Niccolò Machiavelli`
+    `"All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to sufffer." - Niccolò Machiavelli`,
+    `"Not wanting is just as good as having." - Seneca, Letters 119.2`,
 ]
 
 export default quotes;
