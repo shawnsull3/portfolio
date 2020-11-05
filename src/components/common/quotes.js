@@ -31,6 +31,7 @@ const quotes = [
     `"Only those who are asleep make no mistakes. - Ingvar Kamprad`,
     `"All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to sufffer." - Niccolò Machiavelli`,
     `"Not wanting is just as good as having." - Seneca, Letters 119.2`,
+    `"Process saves us from the poverty of our intentions" - Elizabeth King`
 ]
 
 export default quotes;
